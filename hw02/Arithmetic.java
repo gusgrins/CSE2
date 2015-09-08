@@ -108,7 +108,7 @@ public class Arithmetic
 		//sales tax on item
 		// System.out.printf: lets you declare how  many decimal places you want
 		// in you numbers
-		// %n: works the smae way as println but you can use it will using the 
+		// %n: works the same way as println but you can use it while using the 
 		// printf function
 		System.out.printf("Sales tax of socks = %.2f %n", taxSock);
 		System.out.println();
