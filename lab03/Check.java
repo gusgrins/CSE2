@@ -88,12 +88,10 @@ public class Check
         //the integer of the cost per person will be the amount of dollars
         dollars = (int)costPerPerson;
         
-        //this calculation gives the amount of sets of 10 that is in the 
-        // cost per person variable
+        //this calculation gives the ramainder of the cost per person times 10
         dimes = (int) (costPerPerson * 10) % 10;
         
-        //this calculation give the amount of sets of 1 that is in the
-        // cost per person variable
+        //this calculation takes the remaider of the costperperson times 100
         pennies = (int) (costPerPerson * 100) % 10;
         
         //this prints out the variable we calculated above
