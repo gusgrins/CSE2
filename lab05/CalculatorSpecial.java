@@ -1,7 +1,7 @@
 // Gustavo Grinsteins
 // CSE 002 - section 310 
-// lab04 Calculator.java
-// 09/18/2015
+// lab05 CalculatorSpecial.java
+// 09/25/2015
 
 /* Purpose:
 
@@ -38,10 +38,10 @@ public class CalculatorSpecial
         //to keep going with the program
         while (userChoice != 'N') {
         
-        //Declare and construct scanner
+        //Declare and construct scanner for the while loop stop
         Scanner user = new Scanner(System.in);
         
-        //Declare and construct scanner
+        //Declare and construct scanner for the switch statement
         Scanner number = new Scanner(System.in);
         
         //add a space between the lines so the code is more visually appealing
