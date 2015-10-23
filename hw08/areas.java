@@ -9,7 +9,7 @@
 the option to enter one of these three geometric shapes: circle, trapezoid, or 
 rectangle. From here the program will run several methods to compute the area 
 of the shape the user inputed. If the user wants to exit out of the program 
-the user needs to input the value of 0.
+the user can type any word other than the specified geometric shapes.
 
     
 Learning Outcomes: 
@@ -33,6 +33,7 @@ public class areas {
     //Create main method
     public static void main(String[] args) {
         
+        //this while loop will keep the code running continously
         while(true){
             
         //Scanner construction for shape
